@@ -1,0 +1,28 @@
+.container {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	height: 400px;
+	max-width: 600px;
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.title-container {
+	max-height: 50%;
+	height: 50%;
+	align-self: flex-start;
+}
+
+.main-text {
+	max-height: 50%;
+	height: 50%;
+	align-self: flex-end;
+	width: 40%;
+}
